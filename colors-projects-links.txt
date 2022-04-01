@@ -1,0 +1,28 @@
+color scheme:
+
+primary: #e34034
+secondary: #E3E3E3
+secondary-2: #121212
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>\
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel = "stylesheet" href = "login.css">
+<script src = "login.js"></script>
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDfAdn8fhPp_SxjP5JGhBX2My9yQPpwcc4",
+  authDomain: "buzzin-a0686.firebaseapp.com",
+  databaseURL: "https://buzzin-a0686-default-rtdb.firebaseio.com",
+  projectId: "buzzin-a0686",
+  storageBucket: "buzzin-a0686.appspot.com",
+  messagingSenderId: "701370219789",
+  appId: "1:701370219789:web:b90d866e1bf618358d4444"
+};
+
+const app = initializeApp(firebaseConfig);

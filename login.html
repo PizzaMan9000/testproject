@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test project</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel = "stylesheet" href = "login.css">
+    <script src = "login.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+</head>
+<body>
+    <div class = "container">
+        <div id = "background-rectangle"></div>
+        <div id = "background-rectangle2"></div>
+
+        <div id = "background-circle"></div>
+
+        <div id = "loginDiv" style = "position: absolute">
+            <img id = "logo" src="logo.jpg">
+
+            <h4>Welcome to Buzzin</h4>
+
+            <label>Username:</label>
+            <br>
+            <input id  = "username" type  = "text" placeholder="Enter your username">
+            <label>Gmail:</label>
+            <br>
+            <input id  = "gmail" type = "text" placeholder="Enter your gmail">
+            <label>Password:</label>
+            <br>
+            <input id  = "password" type = "password" placeholder="Enter your password">
+            <br>
+            <button id = "login-button">Sign up</button>
+            <br>
+            <button id = "login-button-google"></button>
+        </div>
+    </div>
+
+    <script src = "login.js"></script>
+</body>
+</html>

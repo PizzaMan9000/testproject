@@ -1,0 +1,72 @@
+body {
+    --var-color-primary: #e34034;
+    --var-color-secondary: #E3E3E3;
+    --var-color-secondary2: #121212;
+    background-color: var(--var-color-secondary);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden; 
+}
+
+#loginDiv {
+    background-color: #e34034;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 580px;
+    margin-top: 100px;
+}
+
+#logo {
+    border-radius: 50%;
+    border: white 5px solid;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#background-rectangle {
+    position: absolute;
+    margin-left: 900px;
+    width: 600px;
+    height: 60px;
+    background-color: #121212;
+    transform: rotate(45deg)
+}
+
+#background-rectangle2 {
+    position: absolute;
+    margin-left: 700px;
+    width: 900px;
+    height: 60px;
+    background-color: var(--var-color-primary);
+    transform: rotate(45deg)
+}
+
+#background-circle {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-left: 800px;
+    margin-top: 450px;
+    background-image: url("background-circle.jpg");
+}
+
+button {
+    padding: 15px;
+    border:none;
+    background: #121212;
+    border-radius:10px;
+}
+
+button:hover {
+    background-color: green;
+}
